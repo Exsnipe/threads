@@ -1,7 +1,7 @@
 package ru.job4j.concurrent;
 
 public class ThreadStop {
-    public static void main(String[] args) throws InterruptedException{
+    public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread(
                 () -> {
                     int count = 0;
